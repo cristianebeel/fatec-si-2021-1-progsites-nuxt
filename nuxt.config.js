@@ -1,9 +1,11 @@
 export default {
+target: 'static',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'fatec-2021-1-progsites-nuxt',
+    title: 'Fatec - Aulas de Nuxt.js',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'pt-br'
     },
     meta: [
       { charset: 'utf-8' },

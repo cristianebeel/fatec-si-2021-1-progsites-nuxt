@@ -45,5 +45,11 @@ target: 'static',
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  
+  // Configura o servidor para acesso externo na rede
+  server: {
+    port: 8000,      // default: 3000
+    host: '0.0.0.0', // default: localhost
   }
 }

@@ -52,7 +52,7 @@ export default {
             this.taskList.push(created)
         })
 
-        socket.on('todo-updated', update => {
+        socket.on('todo-updated', updated => {
             const task = this.taskList.find(t => t._id === updated._id)
             task.done = updated.done
         })

@@ -5,7 +5,7 @@
             <form @submit.prevent="addTask" class="flex w-full max-w-screen-xl mt-3 gap-3">
                 <input v-model="inputText" type="text" placeholder="O que precisa ser feito?"
                     class="w-full border border-gray-500 rounded px-2 py-1 outline-none
-                    focus:ring-blue-500 hover:border-blue-500 focus:ring focus:ring-blue-50">
+                    focus:ring-green-50 hover:border-blue-500 focus:ring">
                 <button class="px-3 py-1 bg-blue-300 rounded transition-all
                     hover:bg-blue-400 focus:bg-blue-500"
                 >

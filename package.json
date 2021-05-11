@@ -11,7 +11,8 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.4"
+    "nuxt": "^2.15.4",
+    "socket.io-client": "^4.0.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.0.3"

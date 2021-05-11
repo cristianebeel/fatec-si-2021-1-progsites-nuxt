@@ -20,7 +20,10 @@
 export default {
     name: 'SideMenu',
     props: {
-        items: [],
+        items: {
+            type: Array,
+            default: () => []
+        },
         isDark: false
     },
     data() {

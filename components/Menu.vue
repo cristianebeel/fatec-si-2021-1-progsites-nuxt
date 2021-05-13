@@ -17,6 +17,9 @@
         <li>
           <nuxt-link to="/sobre" class="p-2 rounded bg-indigo-200 hover:bg-purple-300 transition-all">Sobre</nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="/chat" class="p-2 rounded bg-indigo-200 hover:bg-purple-300 transition-all">Chat</nuxt-link>
+        </li>
       </ul>
     </nav>
 </template>
